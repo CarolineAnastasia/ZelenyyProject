@@ -1,2 +1,3 @@
-h1 Zelenyy Channel
-h2 Short promo landing page about channel
+#  **Zelenyy Channel**
+
+## Short promo landing page about channel
