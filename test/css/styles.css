@@ -14,7 +14,7 @@ body{
     float: right;
     text-decoration: none;
     border-radius: 3px;
-    height: 20px;
+    height: 35px;
     display: block;
     margin-top: 0.5rem;
     color: white;
@@ -58,7 +58,7 @@ body{
 }
 
 .image{
-    max-width: 100%;
+    max-width: 120%;
 }
 .our-story {
     background: url("https://i.pinimg.com/originals/41/b1/99/41b199132e6d0ca14dc75584a0fe933a.jpg") no-repeat center;
@@ -227,10 +227,50 @@ body{
     margin: -6% 0 -4% -15%;
 }
 
+.device__wrapper{
+    display: flex;
+    align-items: flex-start;
+}
+
+.device__text{
+    width: 52%;
+    padding: 140px 3rem 150px 0;
+}
+.device__title{
+    margin-bottom: 1.15rem;
+}
+
+.device__image{
+    position: absolute;
+    z-index: 2;
+    display: block;
+}
+
+.device__video-container{
+    width: 100%;
+    height: 100%;
+    max-width: 63%;
+    max-height: 47%;
+    position: absolute;
+    top: 34%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
 @media only screen and (max-width: 949px){
     body{
         font-size: 1.25rem;
     }
+    .our-story__img{
+        width: 115px;
+    }
+
+
 
     .title{
         font-size: 2.5rem;
@@ -250,13 +290,16 @@ body{
     }
 
     .animation__wrapper,
-    .downloadAndWatch__wrapper{
+    .downloadAndWatch__wrapper,
+    .device__wrapper{
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
 
-    .animation__text{
+    .animation__text,
+    .downloadAndWatch__text,
+    .device__text{
         padding: 0;
         text-align: center;
         width: 100%;
@@ -265,18 +308,25 @@ body{
     .image-container{
         max-width: 600px;
         margin: 1rem auto;
-        min-height: 410px;
-        width: 90%;
+        min-height: 230px;
+        width: 100%;
     }
 
-    .animation__image{
+    .animation__image,
+    .device__image{
         width: 100%;
     }
 
     .animation__video-container{
         right: auto;
-        top: 67px;
-        left: 57px;
+        top: 27px;
+        left: 21px;
+    }
+
+    .device__video-container{
+        right: 50px;
+        top: 20px;
+        left: 45px;
     }
 
     .video{
@@ -304,6 +354,6 @@ body{
 
     .our-story__block,
     .section_small{
-        padding: 50px 25px;
+        padding: 50px 50px;
     }
 }

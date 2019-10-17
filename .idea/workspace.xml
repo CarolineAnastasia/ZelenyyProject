@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8caef43-15d0-4bf8-970d-76a983f4cf27" name="Default Changelist" comment="" />
+    <list default="true" id="b8caef43-15d0-4bf8-970d-76a983f4cf27" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/test/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/index.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +54,8 @@
       <workItem from="1570527727261" duration="21693000" />
       <workItem from="1570561463762" duration="6995000" />
       <workItem from="1570615047921" duration="1496000" />
-      <workItem from="1570783133421" duration="12000000" />
+      <workItem from="1570783133421" duration="14834000" />
+      <workItem from="1571224608700" duration="21969000" />
     </task>
     <task id="LOCAL-00001" summary="added new sections">
       <created>1570805533342</created>
