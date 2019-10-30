@@ -1,3 +1,10 @@
 #  **Zelenyy Channel**
+This project represents promo landing page about internet channel.
 
-## Short promo landing page about channel
+## Technologies used:
+### HTML
+### CSS
+### Bootstrap 4
+
+
+
